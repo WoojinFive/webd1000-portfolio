@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--
+        PROG1700 JAVASCRIPT - FINAL PROJECT
+        
+        Countries Of The World
+        Author: Woojin Oh
+        Date: Nov. 27, 2018  
+
+        Filename: quiz.html
+        -->
+    
+        <title>Flag Quiz</title>
+        <meta charset="UTF-8" />
+        <link href="./css/reset.css" rel="stylesheet" />
+        <link href="./css/styles.css" rel="stylesheet" />
+    </head>
+    
+    <!--<body onload='getCountriesNameList()'>-->
+    <body>
+        <div id="quizArea">
+            <div id="quizFlag">
+                <p class="quizTitle">Flags Quiz:</p> <br>
+                <div id="targetFlags">
+                    
+                </div>
+            </div>
+
+            <div id="quizSelectArea">
+                <p class="quizTitle">What country's flags is this?</p>
+                <select id="targetSelect">
+                </select>
+
+                <div id="quizResultArea">
+                    <p id="targetResult">0 out of 0 (0.0 %)</p>
+                </div>
+
+                <div id="quizButtonArea">
+                    <input id="resetButton" type="button" value="Reset" />
+                    <input id="cancelButton" type="button" value="Cancel" />
+                </div>
+            </div>
+        </div>
+
+        <div id="nextButtonArea">
+            <div id="quizNextButtons">
+                <input id="quizNext" type="button" value="Next" />
+            </div>
+        </div>
+
+        <div id="scoreArea">
+            <div id="targetScore">
+            </div>
+        </div>
+        <script src="./js/quiz.js"></script>
+    </body>
+</html>

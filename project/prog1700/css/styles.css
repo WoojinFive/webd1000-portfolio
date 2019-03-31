@@ -1,0 +1,181 @@
+@charset "utf-8";
+
+/*
+	PROG1700 JAVASCRIPT - FINAL PROJECT
+        
+    Countries Of The World
+    Author: Woojin Oh
+    Date: Nov. 27, 2018  
+
+    Filename: styles.css
+*/
+
+/* HTML and Body Styles */
+
+html {
+    height: 100%;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+}
+
+ body {
+    background: whitesmoke;   
+    margin: 0px auto;
+    min-height: 100%;
+    width: 100%;
+}
+
+ /* Body Div Styles */
+
+body div#selectCountry {
+    float: left;
+    width: 25%;
+
+    padding: 20px;
+}
+
+body div#display {
+    float: left;
+    width: 25%;
+
+    padding: 20px;
+
+    position: absolute;
+    left: 25%;
+}
+
+body div#quizArea {
+    float: left;
+    width: 30%;
+
+    padding: 20px;
+}
+
+body div#nextButtonArea {
+    float: left;
+    width: 10%;
+
+    padding: 20px;
+}
+
+body div#scoreArea {
+    float: left;
+    width: 60%;
+
+    padding-top: 40px;
+}
+
+div#displayBottom {
+    position: absolute;
+    top: 300px;
+}
+
+select#countryList {
+    width: 90%;
+    height: 35px;
+    margin: 5px;
+}
+
+select#areaType {
+    width: 350px;
+    height: 35px;
+    margin-bottom: 1px;
+    padding-left: 10px;
+}
+
+div#countryInfo h1 {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+input#populationFieldInput, input#areaFieldInput, input#percentageWorldPopulationInput {
+    width: 350px;
+    height: 35px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+input#populationDensityInput {
+    width: 335px;
+    height: 35px;
+    padding-left: 10px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+input#wikiButton, input#quizButton {
+    font-size: 15px;
+    padding: 10px;
+    margin-top : 10px;
+}
+
+input#resetButton, input#cancelButton {
+    font-size: 15px;
+    width: 70px;
+    padding: 7px;
+    margin-top : 10px;
+}
+
+input#quizNext {
+    font-size: 15px;
+    width: 70px;
+    padding: 7px;
+    margin-top : 10px;
+}
+
+label {
+    display:inline-block;
+    margin-bottom: 5px;
+}
+
+div#populationDensity {
+    width: 350px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+p.targetFlags {
+    margin-bottom: 5px;
+}
+
+div#quizSelectArea {
+    position: absolute;
+    top: 300px;
+}
+
+div#quizResultArea {
+    margin-top: 100px;
+}
+
+div#targetScore{
+    float: left;
+    padding-left: 100px;
+}
+
+select#targetSelect {
+    margin-top: 10px;
+    width: 400px;
+    height: 35px;
+}
+
+img#quizRandomCountry{
+    color: whitesmoke;
+    border: 1px solid black;
+}
+
+div#targetScore h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Table */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}

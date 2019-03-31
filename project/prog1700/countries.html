@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--
+        PROG1700 JAVASCRIPT - FINAL PROJECT
+        
+        Countries Of The World
+        Author: Woojin Oh
+        Date: Nov. 27, 2018  
+
+        Filename: countries.html
+        -->
+    
+        <title>Countries Of The World</title>
+        <meta charset="UTF-8" />
+        <!-- CSS -->
+        <link href="./css/reset.css" rel="stylesheet" />
+        <link href="./css/styles.css" rel="stylesheet" />
+    </head>
+    
+    <body>
+        <div id="selectCountry">
+            <label>Choose a country from the list:</label>
+            <select id="countryList">
+            </select>
+        </div>
+        <div id="display">
+            <!-- Country name & flag -->
+            <div id="countryInfo">
+                <label>Country Info:</label> <br>
+                <div id="targetInfo">
+                </div>
+            </div>
+            <div id="displayBottom">
+                <!-- Country population -->
+                <div id="populationField">
+                    <label>Population:</label> <br>
+                    <div id="targetPopulation">
+                        <input id="populationFieldInput" disabled />
+                    </div>
+                </div>
+
+                <!-- Country area -->
+                <div id="areaField">
+                    <label>Area In:</label> <br>
+                    <select id="areaType">
+                        <option value="areaTypeMiles"selected>Sq. Miles</option>
+                        <option value="areaTypeKm">Sq. KM</option>
+                    </select> <br>
+                    <div id="targetArea">
+                        <input id="areaFieldInput" disabled />
+                    </div>
+                </div>
+
+                <!-- Population density -->
+                <div id="populationDensity">
+                    <label>Population Density:</label> <br>
+                    <input name="selectDensityType" id="mile" value="mile" type="radio" checked />
+                    <label>Per Square Mile</label> <br>
+                    <input name="selectDensityType" id="km" value="km" type="radio" />
+                    <label>Per Square KM</label> <br>
+                    <div id="targetDensity">
+                        <input id="populationDensityInput" disabled />
+                    </div>
+                </div>
+
+                <!-- Population percentage -->
+                <div id="percentageWorldPopulation">
+                    <label>Percentage of World Population:</label> <br>
+                    <div id="targetPercentage">
+                        <input id="percentageWorldPopulationInput" disabled />
+                    </div>
+                </div>
+
+                <div id="countryButtons">
+                    <input id="wikiButton" type="button" value="Wiki Country" />
+                    <input id="quizButton" type="button" value="Launch Quiz" />
+                </div>
+            </div>
+        </div>
+        <!-- JavaScript -->
+        <script src="./js/countries.js"></script>
+    </body>
+</html>

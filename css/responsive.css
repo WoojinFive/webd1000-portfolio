@@ -1,0 +1,267 @@
+/* lg */ 
+@media (min-width: 1400px) {
+	
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	.skill-section .rating-bar {
+		width: 47%;
+	}
+
+	.progress-content {
+		padding-right: 20px;
+	}
+
+	.portfolio-item img {
+		width: 100%;
+	}
+	}
+
+@media (max-width: 991px) {
+	.navbar-header {
+		float: none;
+	}
+	
+	.navbar-left,.navbar-right {
+		float: none !important;
+	}
+	
+	.navbar-toggle {
+		display: block;
+		margin-top: 17px;
+	}
+
+	.navbar-nav {
+		float: none!important;
+	}
+
+	.navbar-nav>li {
+		float: none;
+	}
+
+	.collapse.in{
+		display:block !important;
+	}
+
+
+	.portfolio-item img {
+		width: 100%;
+	}
+
+	.top-container {
+		height: 500px;
+	}
+
+	.rating-bar label
+	{
+		font-size: 12px;
+	}
+}
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar-toggle  {
+	 	margin-top: 15px;
+	}
+
+	.section-title h1 {
+		font-size: 50px;
+	}
+
+	.portfolio-info h3 {
+		font-size: 22px;
+	}
+
+	.profile-info h1 {
+		font-size: 46px;
+	}
+
+	.sub-content {
+		padding-left: 0;
+	}
+
+	.skill-section .rating-bar {
+		width: 46%;
+	}
+
+	.progress-content {
+		padding-right: 20px;
+	}
+
+	.portfolio li h5 {
+		min-width: 130px;
+	}
+
+	.section-padding {
+		padding-top: 30px;
+		padding-bottom: 50px;
+	}
+
+    .portfolio-item img {
+		width: 100%;
+	}
+
+	.top-container {
+		height: 500px;
+	}
+}
+
+
+/* xs */
+@media (max-width: 767px) {
+	.navbar-toggle  {
+	 	margin-top:8px;
+	}
+
+	.section-padding {
+	    overflow: hidden;
+	    padding-bottom: 30px;
+	    padding-top: 30px;
+	}
+
+	.skill-section .rating-bar {
+		width: 97%;
+	}
+
+	.bar-right {
+		float: none;
+	}
+
+	.portfolio-item {
+		margin-bottom: 15px;
+	}
+
+	.portfolio-item img {
+		width: 100%;
+	}
+
+	.contact-section hr {
+		margin: 0;
+	}
+
+	.text-info {
+		margin-bottom: 20px;
+	}
+
+	.contact-section h3 {
+		font-size: 40px;
+	}
+	.contact-section h4 {
+		font-size: 20px;
+	}
+
+	.contact-section .icons {
+		height: 65px;
+	}
+
+	.contact-section li {
+		overflow: visible;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.sub-content {
+		padding-left: 45px;
+	}
+
+	.portfolio li h5 {
+		min-width: 120px;
+	}
+
+	.portfolio li span {
+		margin-right: 10px;
+	}
+
+	.btn.btn-primary{
+		font-size: 14px;
+		padding: 7px 15px;
+	}	
+
+	.skill-progress,
+	.progress {
+		margin-bottom: 20px;
+	}
+
+	.navbar-collapse {
+		border-top: 0;
+	}
+
+	.portfolio-info-div {
+		padding-bottom: 30px;
+	}
+	
+	.portfolio-info-div h3 {
+		color: #fff;
+		font-size: 20px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	  
+	  .portfolio-info-div a {
+		font-size: 20px;
+		color: #fff;
+	}
+
+	.resume-content span.center {
+		left: 5%;
+	}
+
+	.top-container {
+		height: 320px;
+	}
+}
+	
+
+/* XS Portrait */
+@media (max-width: 479px) {
+
+    div#topContainer {
+        display: none;
+    }
+
+	.section-title h1, .home-two .section-title h1 {
+		font-size: 30px;
+	}
+
+	.skill-section ul {
+		text-align: center;
+	}
+
+	.sub-content {
+		padding-left: 0;
+	}
+ 
+	.portfolio li h5 {
+		min-width: inherit;
+	}
+
+	.portfolio li span {
+		margin-right: 5px;
+		padding-left: 10px;
+	}
+
+	.portfolio li {
+		font-size: 12px;
+	}
+
+	.progress-content label {
+		font-size: 12px;
+	}
+
+	.resume-content span.center {
+		left: 5%;
+	}
+
+	.resume-content span.right
+	{
+		float: none;
+	}
+
+	footer p {
+		font-size: 11px;
+		margin-bottom: 10px;
+	}
+}
+
